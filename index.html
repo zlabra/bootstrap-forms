@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> CSS Assignment 3: Fonts, Grid, Responsive Design </title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<!-- this is your container -->
+<div class="container">
+  <div class="row">
+    <section class="col-12">
+
+<h1>Hamilton The Quiz</h1>
+Inspired by the magic of the Broadway musical "Hamilton", this quiz will put your knowledge to the test. So just like Alexander says, put a pencil to your temple and connect it to your brain!
+<a href="https://en.wikipedia.org/wiki/Hamilton_(musical)">Information provided by Wikipedia.</a>
+
+
+
+<!-- text field questions -->
+
+
+<form>
+<div class="form-group">
+    <label class="form-control-label" for="premieredate">When did the Hamilton Musical first premiere?</label>
+    <input class="form-control" type="text" id="premieredate">
+</div>
+
+<div class="form-group">
+    <label class="form-control-label" for="city">In what city did it premiere?</label>
+    <input class="form-control" type="text" id="city">
+</div>
+
+<!-- textarea question -->
+
+<div class="form-group">
+    <label class="form-control-label" for="feelings">Why does Angelica decide to supress her feelings for Alexander?</label>
+    <textarea class="form-control" id="feelings" rows="3"></textarea>
+</div>
+
+<!-- radio button question -->
+
+<div class="form-group">
+    <label>What was the second city Hamilton premiered in?</label>
+
+<div class="form-check">
+    <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="secondcity" value="chicago">Chicago
+    </label>
+</div>
+
+<div class="form-check">
+    <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="secondcity" value="austin">Austin
+    </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+  <input class="form-check-input" type="radio" name="secondcity" value="losangeles"> Los Angeles
+    </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+  <input class="form-check-input" type="radio" name="secondcity" value="miami"> Miami
+    </label>
+</div>
+</div>
+
+<!-- checkbox question -->
+
+<div class="form-group">
+    <label>What songs belong in Act 1?</label>
+
+<div class="form-check">
+    <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" name="act1" value="helpless"> "Helpless"
+    </label>
+</div>
+
+<div class="form-check">
+    <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" name="act1" value="deartheodosia"> "Dear Theodosia"
+    </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+  <input class="form-check-input" type="checkbox" name="act1" value="righthandman"> "Right Hand Man"
+    </label>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+  <input class="form-check-input" type="checkbox" name="act1" value="itsquietuptown"> "It's Quiet Uptown"
+    </label>
+</div>
+</div>
+
+<!-- dropdown question -->
+
+<div class="form-group">
+    <label>Who does Hamilton NOT meet in New York and impress with "My Shot"? (Select one option)</label>
+<div>
+<select id="impress" name="impress" size="4">
+  <option>Aaron Burr</option>
+  <option>George Washington</option>
+  <option>Hercules Mulligan</option>
+  <option>John Laurens</option>
+</select>
+</div>
+</div>
+
+<p><input type="submit"> <input type="reset" value="Start Over"></p>
+
+  </form>
+</section>
+
+
+<!-- the container ends here -->
+  </div> <!-- row -->
+</div> <!-- container -->
+
+
+
+<script src="js/bootstrap.js"</script>
+<script src="js/bootstrap.min.js"</script>
+<script src="js/jquery-slim.min.js"</script>
+<script src="js/popper.min.js"</script>
+
+</body>
+</html>
